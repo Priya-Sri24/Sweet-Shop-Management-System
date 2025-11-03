@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background: linear-gradient(135deg, #fff5f7 0%, #fff9e6 100%);
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF6B6B;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff5252;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Toast customization */
+.Toastify__toast {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(45deg, #4caf50 30%, #81c784 90%);
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(45deg, #f44336 30%, #e57373 90%);
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(45deg, #2196f3 30%, #64b5f6 90%);
+}
